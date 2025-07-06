@@ -1,0 +1,14 @@
+{
+  "name": "moviedb-pb",
+  "module": "main.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build src/main.ts --outdir public"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
